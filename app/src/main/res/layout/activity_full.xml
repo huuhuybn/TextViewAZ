@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FullActivity">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="This is SpannableString Example"
+        android:padding="32dp" />
+
+    <Button
+        android:id="@+id/buttonSetForegroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button Set Foreground Color" />
+
+
+    <Button
+        android:id="@+id/buttonSetBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button Set Background Color" />
+
+    <Button
+        android:id="@+id/buttonSetUnderLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button Set Under Line" />
+
+    <Button
+        android:id="@+id/buttonSetStrikeThrough"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button Set Strike Through" />
+
+    <Button
+        android:id="@+id/buttonSetTextRelativeSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button Set Text Relative Size" />
+
+    <Button
+        android:id="@+id/buttonSetStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button Set Style" />
+
+    <Button
+        android:id="@+id/buttonSetSuperscript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button Set Super script" />
+
+
+    <Button
+        android:id="@+id/buttonSetSubscript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button Set Subscript" />
+
+    <Button
+        android:id="@+id/buttonSetImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button Set Image" />
+
+
+    <Button
+        android:id="@+id/buttonSetUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button Set Url" />
+
+
+
+
+</LinearLayout>
